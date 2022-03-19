@@ -1,0 +1,44 @@
+{
+  "clientes": [
+    {
+      "nombre": "andres",
+      "empresa": "BooksXChanges",
+      "email": "andresrfelip@hotmail.com",
+      "telefono": "3104012141",
+      "notas": "Cliente Recomendado",
+      "id": 1
+    },
+    {
+      "nombre": "andres",
+      "empresa": "BooksXChanges",
+      "email": "andresrfelip@hotmail.com",
+      "telefono": "3104012141",
+      "notas": "Cliente Recomendado",
+      "id": 2
+    },
+    {
+      "nombre": "andres",
+      "empresa": "BooksXChanges",
+      "email": "andresrfelip@hotmail.com",
+      "telefono": "3104012141",
+      "notas": "Cliente Recomendado",
+      "id": 3
+    },
+    {
+      "nombre": "Paol",
+      "empresa": "Diseños",
+      "email": "paola@paola.com",
+      "telefono": "",
+      "notas": "",
+      "id": 4
+    },
+    {
+      "nombre": "Juanisimo",
+      "empresa": "Hadas",
+      "email": "juanisimo@correo.com",
+      "telefono": "",
+      "notas": "padrinos mágicos",
+      "id": 5
+    }
+  ]
+}
