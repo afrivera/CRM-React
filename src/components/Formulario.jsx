@@ -11,10 +11,15 @@ const Formulario = () => {
                     .required('El Nombre del Cliente es Obligatorio')
                     .min(3, 'El Nombre es demasiado corto')
                     .max(20, 'El Nombre es demasiado largo'),
-        empresa: '',
-        email: '',
-        telefono: '',
-        notas: ''
+        empresa: Yup.string()
+                    .required('El Nombre de la Empresa es Obligatorio'),
+        email: Yup.string()
+                    .required('El Email es Obligatorio')
+                    .email('Email no válido'),
+        telefono: Yup.number()
+                     .positive('Número no válido')
+                     .typeError('Número no válido')
+                     .integer('Número no válido')
     })
 
     const handleSubmit = valores => {
@@ -73,6 +78,11 @@ const Formulario = () => {
                                 placeholder='Empresa del Cliente'
                                 name='empresa'
                             />
+                            {
+                                errors.empresa && touched.empresa ?(
+                                <Alerta>{errors.empresa}</Alerta>
+                                ): null
+                            }
                         </div>
                         <div className='mb-4'>
                             <label 
@@ -86,6 +96,11 @@ const Formulario = () => {
                                 placeholder='Email del Cliente'
                                 name='email'
                             />
+                            {
+                                errors.email && touched.email ?(
+                                <Alerta>{errors.email}</Alerta>
+                                ): null
+                            }
                         </div>
                         <div className='mb-4'>
                             <label 
@@ -99,6 +114,11 @@ const Formulario = () => {
                                 placeholder='Telefono del Cliente'
                                 name='telefono'
                             />
+                            {
+                                errors.telefono && touched.telefono ?(
+                                <Alerta>{errors.telefono}</Alerta>
+                                ): null
+                            }
                         </div>
                         <div className='mb-4'>
                             <label 
