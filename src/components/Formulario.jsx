@@ -40,7 +40,7 @@ const Formulario = ({ cliente={}, cargando=false}) => {
                 });
                 
 
-                navigate('/clientes');
+                navigate('/');
             }else {
                 // Nuevo Registro
                 const url = 'http://localhost:4000/clientes';
@@ -54,7 +54,7 @@ const Formulario = ({ cliente={}, cargando=false}) => {
                 
             }
             await respuesta.json();
-            navigate('/clientes');
+            navigate('/');
         } catch (error) {
             console.log(error);
         }

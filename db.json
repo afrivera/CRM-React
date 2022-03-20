@@ -2,67 +2,27 @@
   "clientes": [
     {
       "nombre": "andres",
-      "empresa": "BooksXChanges",
-      "email": "andresrfelip@hotmail.com",
-      "telefono": "3104012141",
-      "notas": "Cliente Recomendados",
-      "id": 1
-    },
-    {
-      "nombre": "andres Editado",
-      "empresa": "BooksXChanges",
-      "email": "andresrfelip@hotmail.com",
-      "telefono": "3104012141",
-      "notas": "Cliente Recomendado",
-      "id": 2
-    },
-    {
-      "nombre": "andres",
-      "empresa": "BooksXChanges",
-      "email": "andresrfelip@hotmail.com",
-      "telefono": "3104012141",
-      "notas": "Cliente Recomendado",
-      "id": 3
-    },
-    {
-      "nombre": "Paola Muelas",
-      "empresa": "Diseños",
-      "email": "paola@paola.com",
-      "telefono": "",
-      "notas": "",
-      "id": 4
-    },
-    {
-      "nombre": "Juanisimo",
-      "empresa": "Hadas",
-      "email": "juanisimo@correo.com",
-      "telefono": "",
-      "notas": "padrinos mágicos",
-      "id": 5
-    },
-    {
-      "nombre": "carlos Actualizado",
       "empresa": "Data",
       "email": "hola@hola.com",
       "telefono": "31312121",
-      "notas": "Recomendado",
-      "id": 6
+      "notas": "Nuevo Cliente",
+      "id": 1
     },
     {
-      "nombre": "Edelmira",
-      "empresa": "Rincon Sabor",
-      "email": "edelmira@prueba.com",
-      "telefono": "333",
-      "notas": "Cocina",
-      "id": 7
+      "nombre": "carlos",
+      "empresa": "Diseños",
+      "email": "hola@hola.com",
+      "telefono": "31312121",
+      "notas": "Diseños Geniales",
+      "id": 2
     },
     {
-      "nombre": "Pablo",
-      "empresa": "Gelatina",
-      "email": "pablo@correo.com",
-      "telefono": "",
-      "notas": "",
-      "id": 8
+      "nombre": "felipe",
+      "empresa": "Data",
+      "email": "data@data.com",
+      "telefono": "32323",
+      "notas": "Nueva Data",
+      "id": 3
     }
   ]
 }
