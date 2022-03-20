@@ -6,26 +6,28 @@ const Inicio = () => {
 
   // state
   const [clientes, setClientes] = useState([]);
-
+  const [cargando, setCargando] = useState(true)
+  
   useEffect(()=>{
+    
     const obtenerClientesApi = async ()=>{
       try {
         const url = 'http://localhost:4000/clientes';
         const respuesta = await fetch(url);
         const resultado = await respuesta.json();
-
+  
         setClientes(resultado);
       } catch (error) {
         console.log(error);
       }
+      setCargando(false)
     }
-
     obtenerClientesApi();
   },[]);
 
   return (
     
-      
+    cargando ? <Spinner /> :      
     
     <>
       <h1 className='font-black text-4xl text-blue-900'>Clientes</h1>

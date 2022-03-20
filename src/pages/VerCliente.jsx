@@ -26,8 +26,6 @@ const VerCliente = () => {
     obtenerClienteApi();
   }, []);
 
-  console.log(cargando);
-
   return( 
     cargando ? <Spinner /> :
     Object.keys(cliente).length === 0 ? (
